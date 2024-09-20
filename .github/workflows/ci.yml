@@ -13,9 +13,9 @@ jobs:
 
     steps:
     - name: Install npm dependencies
-        run: |
-          npm install
+      run: |
+        npm install
 
     - name: Run tests
-        run: |
-          npm run test
+      run: |
+        npm run test
